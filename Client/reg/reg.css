@@ -7,7 +7,7 @@ main {
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 3rem;
+  padding: 1.2rem;
   grid-template-columns: 30% 40% 30%;
   background-color: #f7fbfc;
   width: 100vw;
@@ -21,9 +21,9 @@ main {
   align-items: center;
   align-items: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.2rem;
   background-color: #ffff;
-  padding: 2rem;
+  padding: 1.4rem;
   box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
 }
 #response {
@@ -45,3 +45,26 @@ main {
 h2 {
 }
 
+#response button {
+  height: 30px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  border-radius: 10px;
+  background: #046ebe;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-top: 10px;
+}
+#response button:hover{
+  box-shadow: none;
+}
+a {
+  text-decoration: none;
+  color: #013e48;
+  transition: all 1s;
+}
+
+a:hover {
+  color: #999999;
+}
